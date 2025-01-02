@@ -16,7 +16,7 @@ connectdb(); // Connect to the MongoDB database
 // middleware
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://uber-clone-gyzy.vercel.app', // Replace with your frontend URL
+  origin: 'https://uber-clone-mauve-delta.vercel.app', // Replace with your frontend URL
   credentials: true, // Allow credentials
 }));
 
